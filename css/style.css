@@ -1,0 +1,18 @@
+:root {
+    --page-color: #03071e;
+    --text-color: #fff3b0;
+    --mark-color: #C1121F;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: var(--page-color);  
+}

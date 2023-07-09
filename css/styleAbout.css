@@ -1,0 +1,187 @@
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+#aboutme {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 10px;
+    gap: 8px;
+    width: 75%;
+}
+
+h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    color: var(--mark-color);
+    font-size: 3.125rem;
+}
+
+p {
+    color: var(--text-color);
+    word-spacing: 1px;
+    font-size: 2.187rem;
+    text-align: center;
+    margin-top: 20px;
+    line-height: 45px;
+}
+
+#formation {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 10px;
+    gap: 12px;
+    width: 75%;
+}
+
+#titleSection-formation {
+    text-align: center;
+    margin-bottom: 28px;
+}
+
+li {
+    font-size: 1.75rem;
+    color: #FFFFFF;
+    line-height: 35px;
+    margin-bottom: 12px;
+}
+
+#educationGeneral {
+    list-style-type: none;
+    width: 510px;
+    height: 150px;
+    color: var(--text-color);
+}
+
+h3 {
+    font-size: 1.75rem;
+    font-family: 'Josefin Sans', sans-serif;
+    color: var(--mark-color);
+    margin-top: 50px;
+}
+
+#educationTecAlura {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    gap: 10px;
+    color: var(--text-color);
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    padding: 20px 0 35px 0;
+}
+
+footer div {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    width: 279px;
+    height: 40px;
+}
+
+footer img {
+    width: 50px;
+    height: 40px;
+}
+
+footer h3 {
+    font-size: 0.75rem;
+    color: var(--text-color);
+}
+
+footer h1 {
+    font-family: 'Sacramento', cursive;
+    color: yellowgreen;
+}
+
+@media (max-width: 658px) and (min-width: 521px) {
+    #aboutme {
+        width: 100%;
+    }
+
+    #aboutme p {
+        text-align: left;
+        margin-left: 5%;
+    }
+
+    #educationGeneral li {
+        font-size: 1.95rem;
+    }
+
+    h3 {
+        margin-top: 20%;
+    }
+
+    #educationTecAlura li {
+        font-size: 1.95rem;
+    }
+}
+
+@media (max-width: 520px) and (min-width: 420px) {
+    #aboutme {
+        width: 100%;
+    }
+
+    #aboutme p {
+        text-align: left;
+    }
+
+    #formation {
+        width: 100%;
+    }
+
+    #educationGeneral li {
+        font-size: 1.55rem;
+        padding: 0 25% 0 0;
+        width: 100%;
+    }
+
+    h3 {
+        margin-top: 20%;
+        width: 95%;
+    }
+
+    #educationTecAlura li {
+        font-size: 1.55rem;
+        padding: 0 10% 0 0%;
+    }
+} 
+
+@media (max-width: 419px) and (min-width: 280px) {
+    #aboutme {
+        width: auto;
+    }
+
+    #aboutme p {
+        text-align: left;
+        font-size: 1.25rem;
+    }
+
+    #formation {
+        align-items: left;
+        margin-right: 20%;
+    }
+
+    #educationGeneral li {
+        font-size: 1.35rem;
+        width: 65%;
+    }
+
+    h3 {
+        margin-top: 150px
+    }
+
+    #educationTecAlura li {
+        font-size: 1.35rem;
+    }
+}
